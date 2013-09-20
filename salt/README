@@ -1,0 +1,33 @@
+This README provides the salt state tree structure and one line description of the various files we have used.
+
+top.sls
+|
+|--chkservice.sls
+|
+|--app_chkservice.sls
+|
+|--selinux.sls
+|
+|--files/
+  |--selinux
+|
+|--snmp/
+  |--init.sls
+  |--files/
+    |--snmpd.conf
+|
+|--ntp/
+  |--init.sls
+  |--files/
+    |--US/
+      |--ntp.conf
+    |--IN/
+      |--ntp.conf
+    |--HK/     
+      |--ntp.conf
+    |--EU/
+      |--ntp.conf
+    |--AU/
+      |--ntp.conf
+    |--AF/
+      |-ntp.conf
