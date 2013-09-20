@@ -1,10 +1,3 @@
 base:
-  '*':
-    - snmp
-    - chkservice
-    - selinux
-    - ntp
-
-  '10-192-2-16*':
-    - app_chkservice
-    - usermgmt
+ '10-192-2-13*':
+   - it_could_be_anything
