@@ -1,10 +1,10 @@
 base:
   '*':
-#    - snmp
-#    - chkservice
-#    - selinux
-#    - ntp
+    - snmp
+    - chkservice
+    - selinux
+    - ntp
 
-  '10-192-2-16.cloud.opsource.net':
+  '10-192-2-16*':
     - app_chkservice
     - usermgmt
